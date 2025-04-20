@@ -107,8 +107,7 @@
 <script setup lang="ts">
 import { ref, reactive } from 'vue'
 import { useAuthStore } from '~/stores/auth'
-
-const router = useRouter()
+import { navigateTo } from 'nuxt/app'
 const auth = useAuthStore()
 
 const form = reactive({
@@ -155,7 +154,7 @@ const validate = async () => {
   try {
     const success = await auth.login(form.username, form.password)
     if (success) {
-      await router.push('/account')
+      await navigateTo('/account')
     } else {
       error.value = auth.loginError
     }

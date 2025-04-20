@@ -1,3 +1,17 @@
+# Project Name
+
+## Технологии
+- TypeScript
+- Nuxt 3
+- SASS/LESS
+- и т.д.
+
+## Развертывание
+[Описание процесса развертывания]
+
+## Реализованные функции
+[Описание функций]
+
 # Nuxt Minimal Starter
 
 Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.

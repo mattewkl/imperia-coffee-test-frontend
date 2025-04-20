@@ -1,0 +1,206 @@
+[
+    {
+        "id": 1,
+        "status": "available",
+        "date_created": "2024-03-01",
+        "name": "Классический Латте",
+        "price": 350,
+        "description": "Эспрессо, молоко, пена, молока НЕМАЛО",
+        "category": "hot",
+        "ingredients": ["эспрессо", "молоко", "молочная пена"],
+        "size": {
+            "small": 350,
+            "medium": 400,
+            "large": 450
+        },
+        "isSeasonalOffer": false,
+        "calories": 120
+    },
+    {
+        "id": 2,
+        "status": "available",
+        "date_created": "2024-03-01",
+        "name": "Айс Американо",
+        "price": 300,
+        "description": "Охлажденный американо со льдом",
+        "category": "cold",
+        "ingredients": ["эспрессо", "вода", "лед"],
+        "size": {
+            "small": 300,
+            "medium": 350,
+            "large": 400
+        },
+        "isSeasonalOffer": false,
+        "calories": 15
+    },
+    {
+        "id": 3,
+        "status": "available",
+        "date_created": "2024-03-15",
+        "name": "Карамельный Макиато",
+        "price": 400,
+        "description": "Если вы скажете итальянцу что это макиато, заиграет музыка из Dark Souls",
+        "category": "hot",
+        "ingredients": ["эспрессо", "молоко", "карамельный сироп", "молочная пена"],
+        "size": {
+            "small": 400,
+            "medium": 450,
+            "large": 500
+        },
+        "isSeasonalOffer": false,
+        "calories": 180
+    },
+    {
+        "id": 4,
+        "status": "available",
+        "date_created": "2024-03-10",
+        "name": "Фраппучино с карамелью",
+        "price": 450,
+        "description": "Холодный кофейный напиток с карамельным сиропом и взбитыми сливками",
+        "category": "cold",
+        "ingredients": ["кофе", "молоко", "карамельный сироп", "взбитые сливки", "лед"],
+        "size": {
+            "small": 450,
+            "medium": 500,
+            "large": 550
+        },
+        "isSeasonalOffer": false,
+        "calories": 380
+    },
+    {
+        "id": 5,
+        "status": "available",
+        "date_created": "2024-03-20",
+        "name": "Весенний Раф",
+        "price": 420,
+        "description": "Нежный кофейный напиток с лавандовым сиропом. Назван весенним для избегания срача в твиттере.",
+        "category": "seasonal",
+        "ingredients": ["эспрессо", "сливки", "лавандовый сироп", "ванильный сахар"],
+        "size": {
+            "small": 420,
+            "medium": 470,
+            "large": 520
+        },
+        "isSeasonalOffer": true,
+        "calories": 250
+    },
+    {
+        "id": 6,
+        "status": "unavailable",
+        "date_created": "2024-02-15",
+        "name": "Капучино без кофеина",
+        "price": 380,
+        "description": "Классический капуч на декафе",
+        "category": "hot",
+        "ingredients": ["декаф эспрессо", "молоко", "молочная пена"],
+        "size": {
+            "small": 380,
+            "medium": 430,
+            "large": 480
+        },
+        "isSeasonalOffer": false,
+        "calories": 100
+    },
+    {
+        "id": 7,
+        "status": "available",
+        "date_created": "2024-03-18",
+        "name": "Матча Латте",
+        "price": 420,
+        "description": "Японский зеленый чай матча с молоком. Выглядит как латте, на вкус как водросли.",
+        "category": "hot",
+        "ingredients": ["матча", "молоко", "молочная пена"],
+        "size": {
+            "small": 420,
+            "medium": 470,
+            "large": 520
+        },
+        "isSeasonalOffer": false,
+        "calories": 150
+    },
+    {
+        "id": 8,
+        "status": "available",
+        "date_created": "2024-03-05",
+        "name": "Мокко",
+        "price": 400,
+        "description": "Эспрессо с горячим шоколадом и молоком",
+        "category": "hot",
+        "ingredients": ["эспрессо", "молоко", "шоколадный сироп", "взбитые сливки"],
+        "size": {
+            "small": 400,
+            "medium": 450,
+            "large": 500
+        },
+        "isSeasonalOffer": false,
+        "calories": 300
+    },
+    {
+        "id": 9,
+        "status": "available",
+        "date_created": "2024-03-20",
+        "name": "Цитрусовый Раф",
+        "price": 450,
+        "description": "Раф с апельсиновым сиропом и цедрой",
+        "category": "seasonal",
+        "ingredients": ["эспрессо", "сливки", "апельсиновый сироп", "апельсиновая цедра"],
+        "size": {
+            "small": 450,
+            "medium": 500,
+            "large": 550
+        },
+        "isSeasonalOffer": true,
+        "calories": 280
+    },
+    {
+        "id": 10,
+        "status": "available",
+        "date_created": "2024-03-01",
+        "name": "Флэт Уайт",
+        "price": 380,
+        "description": "Двойной эспрессо со слегка сбитым молоком.",
+        "category": "hot",
+        "ingredients": ["двойной эспрессо", "молоко"],
+        "size": {
+            "small": 380,
+            "medium": 430,
+            "large": 480
+        },
+        "isSeasonalOffer": false,
+        "calories": 140
+    },
+    {
+        "id": 11,
+        "status": "available",
+        "date_created": "2024-03-15",
+        "name": "Айс Матча Латте",
+        "price": 420,
+        "description": "Охлажденный матча латте со льдом",
+        "category": "cold",
+        "ingredients": ["матча", "молоко", "лед"],
+        "size": {
+            "small": 420,
+            "medium": 470,
+            "large": 520
+        },
+        "isSeasonalOffer": false,
+        "calories": 160
+    },
+    {
+        "id": 12,
+        "status": "available",
+        "date_created": "2024-03-20",
+        "name": "Имбирно-пряный Латте",
+        "price": 430,
+        "description": "Пряный латте с имбирем и корицей",
+        "category": "seasonal",
+        "ingredients": ["эспрессо", "молоко", "имбирный сироп", "корица", "взбитые сливки"],
+        "size": {
+            "small": 430,
+            "medium": 480,
+            "large": 530
+        },
+        "isSeasonalOffer": true,
+        "calories": 220
+    }
+] 

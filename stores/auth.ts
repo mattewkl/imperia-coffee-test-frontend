@@ -1,4 +1,5 @@
 import { defineStore } from 'pinia'
+import { useCookie } from '#app'
 import type { User } from '~/types'
 import users from '~/users.json'
 
@@ -41,12 +42,10 @@ export const useAuthStore = defineStore('auth', {
 
     logout() {
       this.currentUser = null
-      // Удаляем passphrase из куков при выходе
       const cookie = useCookie('auth-passphrase')
       cookie.value = null
     },
 
-    // Проверка аутентификации по passphrase из куков
     async checkAuth() {
       const cookie = useCookie('auth-passphrase')
       if (!cookie.value) return false
@@ -55,8 +54,6 @@ export const useAuthStore = defineStore('auth', {
       await new Promise(resolve => setTimeout(resolve, 100))
       
       const user = users.find(u => 
-        // В реальности здесь была бы проверка passphrase на сервере
-        // Для демо используем простую связь passphrase = username
         u.credentials.username === cookie.value && 
         u.active === true
       )
@@ -71,7 +68,6 @@ export const useAuthStore = defineStore('auth', {
       return false
     },
 
-    // Приватный метод для имитации API
     async mockApiCall(credentials: { username: string, password: string }): Promise<AuthResponse> {
       await new Promise(resolve => setTimeout(resolve, 700))
 
